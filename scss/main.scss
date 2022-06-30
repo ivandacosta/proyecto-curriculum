@@ -66,16 +66,17 @@ body {
     transition: all 1s;
     }
     a:hover{
-        font-size: 1.5rem;
+        color: #091D36;
     }
 }
 
 //section
 .developer {
+    margin: 30px 30px;
     gap: 30px;
     padding: 30px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #6494C6;
     font-family: 'Poppins', sans-serif;
     text-shadow: 2px 2px 2px white;
@@ -143,6 +144,16 @@ body {
     font-size: 1rem;
 }
 
+//section deve
+.deve {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Poppins', sans-serif;
+    color: #6494C6;
+    text-shadow: 2px 2px 2px white;
+}
+
 //proyectos
 .proyectos{
     text-align: center;
@@ -162,8 +173,8 @@ body {
     .one{
         width: 350px;
         height: 179px;
-        background: url("../img/page.png");
-        color: white;
+        background: url("../img/one.png");
+        color: coral;
         font-family: 'Poppins', sans-serif;
         border-radius: 3px;
     }
