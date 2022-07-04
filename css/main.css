@@ -181,6 +181,7 @@ body {
   width: 350px;
   height: 179px;
   background: url("../img/one.png");
+  background-position: center;
   color: coral;
   font-family: "Poppins", sans-serif;
   border-radius: 3px;
@@ -202,12 +203,47 @@ body {
 .cards .three {
   width: 350px;
   height: 179px;
-  background: url("../img/three.png");
+  background: url("../img/page.png");
   color: white;
   font-family: "Poppins", sans-serif;
   border-radius: 3px;
 }
 .cards .three:hover {
+  box-shadow: 10px 10px 10px #444444;
+}
+.cards .four {
+  width: 350px;
+  height: 179px;
+  background: url("../img/four.png");
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+}
+.cards .four:hover {
+  box-shadow: 10px 10px 10px #444444;
+}
+.cards .five {
+  width: 350px;
+  height: 179px;
+  background: url("../img/five.png");
+  background-position: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+}
+.cards .five:hover {
+  box-shadow: 10px 10px 10px #444444;
+}
+.cards .six {
+  width: 350px;
+  height: 179px;
+  background: url("../img/six.png");
+  background-position: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+}
+.cards .six:hover {
   box-shadow: 10px 10px 10px #444444;
 }
 
